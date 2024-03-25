@@ -1,4 +1,4 @@
-
+var content = document.getElementById("content")
 var title_content = document.getElementById("title-content");
 var desc_text = document.getElementById("desc-text");
 var box = document.getElementById("box")
@@ -14,7 +14,8 @@ function trueButton(){
   desc_text.innerHTML = "Anda adalah seorang Teknisi";
   box.style.backgroundColor = "#E12E2E";
   desc_img.src = "Assets/teknisi.svg";
-  button_group.style.display = 'none'
+  button_group.style.display = 'none';
+  content.classList.add("animation-getar");
 }
 
 function falseButton(){
@@ -22,5 +23,6 @@ function falseButton(){
   desc_text.innerHTML = "Anda adalah seorang Mahasiswa";
   box.style.backgroundColor = "#6FD240"
   desc_img.src = "Assets/mahasiswa.svg";
-  button_group.style.display = 'none'
+  button_group.style.display = 'none';
+  content.classList.add("animation-naikturun");
 }

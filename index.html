@@ -10,7 +10,7 @@
 
 <body>
   <div class="container">
-    <div class="content">
+    <div id="content" class="content">
       <h2 id="title-content" class="title-content"></h2>
       <div id="box" class="box">
         <div class="desc-box flex-col">
@@ -19,8 +19,8 @@
             <h6 id="desc-text" class="desc-text"></h6>
           </div>
           <div id="button-group" class="button-group flex-row">
-            <button onclick="trueButton()" class="button-true">Iya!!</button>
-            <button onclick="falseButton()" class="button-false">Tidak!!</button>
+            <button onclick="setTimeout(trueButton, 300)" class="button-true">Iya!!</button>
+            <button onclick="setTimeout(falseButton, 300)" class="button-false">Tidak!!</button>
           </div>
         </div>
       </div>
