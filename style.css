@@ -1,0 +1,83 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.container{
+  width: 80vw;
+  margin: 0px auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-content{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.box{
+  width: 610px;
+  height: 329px;
+  background-color: #DBDBDB;
+  border-radius: 30px;
+}
+.desc-box{
+  position: relative;
+  bottom: 50px;
+}
+.desc-img{
+  width: 219px;
+  height: 219px;
+  position: relative;
+}
+.desc-profesi{
+  width: 475px;
+  height: 56px;
+  background-color: #FEEEE2;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 25px;
+}
+.desc-text{
+  font-size: 16px;
+  font-weight: 700;
+}
+.button-true{
+  width: 157px;
+  height: 41px;
+  background-color: #6FD240;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.button-false{
+  width: 157px;
+  height: 41px;
+  background-color: #E12E2E;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+}

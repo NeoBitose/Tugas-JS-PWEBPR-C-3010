@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tugas-JS-PWEBPR-C-3010</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <div class="container">
+    <div class="content">
+      <h2 id="title-content" class="title-content"></h2>
+      <div id="box" class="box">
+        <div class="desc-box flex-col">
+          <img id="desc-img" class="desc-img" src="" alt="detektif">
+          <div class="desc-profesi">
+            <h6 id="desc-text" class="desc-text"></h6>
+          </div>
+          <div id="button-group" class="button-group flex-row">
+            <button onclick="trueButton()" class="button-true">Iya!!</button>
+            <button onclick="falseButton()" class="button-false">Tidak!!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
+<script src="script.js"></script>
+
 </html>
